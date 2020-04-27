@@ -1,0 +1,35 @@
+{
+  "name": "live-video-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.13.4",
+    "@types/socket.io": "^2.1.4",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidsbrmnn/live-video-node.git"
+  },
+  "keywords": [],
+  "author": "Siddharth Subramanian <sidsbrmnn@gmail.com> (https://sidsbrmnn.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidsbrmnn/live-video-node/issues"
+  },
+  "homepage": "https://github.com/sidsbrmnn/live-video-node#readme"
+}

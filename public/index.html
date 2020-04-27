@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTC Web Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <img src="" alt="" class="logo-img">
+            </div>
+        </header>
+        <div class="content-container">
+            <div class="active-users-panel" id="activeUsersPanel">
+                <h3 class="panel-title">Active users:</h3>
+            </div>
+            <div class="video-chat-container">
+                <h2 class="talk-info" id="talkingWithInfo">
+                    Select active user on the left side
+                </h2>
+                <div class="video-container">
+                    <video autoplay class="remote-video" id="remoteVideo"></video>
+                    <video autoplay muted class="local-video" id="localVideo"></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
